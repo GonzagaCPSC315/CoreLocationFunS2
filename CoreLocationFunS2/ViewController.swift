@@ -16,6 +16,10 @@ import CoreLocation
 // set up the outlets
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var latitudeLabel: UILabel!
+    @IBOutlet var longitudeLabel: UILabel!
+    @IBOutlet var nameLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
